@@ -19,6 +19,8 @@ body {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
+
+
 .calc-grid > button {
     cursor: pointer;
     font-size: 2rem;
@@ -37,4 +39,13 @@ body {
 
 .calc-grid__output-screen {
     grid-column: 1/-1;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 18px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-bottom: 3px;
 }
