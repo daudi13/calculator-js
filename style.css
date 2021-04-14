@@ -49,3 +49,14 @@ body {
     word-break: break-all;
     margin-bottom: 3px;
 }
+
+.previous-operand {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.current-operand {
+    color: #fff;
+    font-size: 2rem;
+}
